@@ -1,0 +1,10 @@
+.block {
+    background-color: antiquewhite;
+    color: black;
+    height: 300px;
+}
+
+.dark {
+    background-color: black;
+    color: antiquewhite;
+}

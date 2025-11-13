@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.fighter {
+  text-align: center;
+  margin: 20px;
+}
+
+.health-bar {
+  width: 200px;
+  height: 20px;
+  background: #ccc;
+  border: 1px solid #000;
+  margin: 10px auto; 
+}
+
+.health {
+  width: 100%;
+  height: 100%;
+  background: green;
+  transition: width 0.3s;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.actions button {
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+#log {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}

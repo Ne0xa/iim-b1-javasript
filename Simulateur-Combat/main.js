@@ -1,3 +1,5 @@
+// This is an exemple of my lesson
+
 // Exo 1 2 3 
 // const name = "Benjamin";
 // let age = 18;

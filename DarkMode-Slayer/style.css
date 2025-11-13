@@ -1,0 +1,149 @@
+body {
+  font-family: 'Cinzel', serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff3b3b;
+  text-shadow: 0 0 10px #ff3b3b, 0 0 20px #ff3b3b;
+}
+
+button {
+  background: #ff3b3b;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e60000;
+  box-shadow: 0 0 10px #ff3b3b, 0 0 20px #ff3b3b;
+}
+
+main {
+  max-width: 800px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tab-content {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-btn:hover {
+  color: #ff3b3b;
+  text-shadow: 0 0 10px #ff3b3b, 0 0 20px #ff3b3b;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: #f4f4f4;
+}
+
+.dark-mode header {
+  background: #000;
+}
+
+.dark-mode nav ul li a {
+  color: #f4f4f4;
+}
+
+.dark-mode button {
+  background: #444;
+}
+
+.main-img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 20px rgba(255, 59, 59, 0.7);
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 59, 59, 1);
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 59, 59, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 59, 59, 1);
+}
+
+/* This is an exemple of my lesson */
+/* .block {
+    background-color: antiquewhite;
+    color: black;
+    height: 300px;
+}
+
+.dark {
+    background-color: black;
+    color: antiquewhite;
+} */

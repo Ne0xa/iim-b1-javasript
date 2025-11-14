@@ -12,12 +12,13 @@ body {
 
 header {
   width: 100%;
+  height: 50px;
   background: #222;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 20px 30px;
 }
 
 /* nav bar */
@@ -147,7 +148,7 @@ main {
   position: fixed;
   z-index: 0;
   top: 8rem;
-  left: 1rem;
+  right: 1rem;
   padding: 4px;
   background: #222;
   cursor: pointer;
@@ -160,11 +161,11 @@ main {
 
 .menu {
   position: fixed;
-  transform: translateX(-100%);
+  transform: translateX(100%);
   transition: transform 0.5s;
   top: 150px;
-  left: -10px;
-  right: 1300px;
+  left: 1300px;
+  right: -10px;
   bottom: 0;
   z-index: auto;
   background: #222;

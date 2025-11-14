@@ -16,9 +16,9 @@ const body = document.body;
 toggleBtn.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
   if (body.classList.contains('dark-mode')) {
-    toggleBtn.textContent = '☀️ Mode Clair';
+    toggleBtn.textContent = '⚪ Mode Clair';
   } else {
-    toggleBtn.textContent = '🌙 Mode Sombre';
+    toggleBtn.textContent = '⚫ Mode Sombre';
   }
 });
 
